@@ -14,7 +14,7 @@ const Countries = () => {
             <h1>Total Countries in the World: {countries.length}</h1>
             <div className='countries-container'>
                 {
-                    countries.map(country => <Country name={country.name.common} population ={country.population} flag ={country.flags.png} area={country.area}></Country>)
+                    countries.map(country => <Country country ={country}></Country>)
                 }
             </div>
         </div>
